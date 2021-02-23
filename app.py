@@ -9,28 +9,28 @@ def trades():
         [{
             'asset': 'ETH',
             'side': 'BUY',
-            'transaction_time': datetime.utcnow(),
+            'utc_transaction_time': datetime.utcnow(),
             'purchase_amount_minus_commission': 20,
             'average_price_of_asset': 1700
         },
         {
             'asset': 'ETH',
             'side': 'SELL',
-            'transaction_time': datetime.utcnow(),
+            'utc_transaction_time': datetime.utcnow(),
             'sale_amount_minus_commission': 21,
             'average_price_of_asset': 1720
         }],
         [{
             'asset': 'ETH',
             'side': 'BUY',
-            'transaction_time': datetime.utcnow(),
+            'utc_transaction_time': datetime.utcnow(),
             'purchase_amount_minus_commission': 20,
             'average_price_of_asset': 1700
         },
         {
             'asset': 'ETH',
             'side': 'SELL',
-            'transaction_time': datetime.utcnow(),
+            'utc_transaction_time': datetime.utcnow(),
             'purchase_amount_minus_commission': 19,
             'average_price_of_asset': 1690
         }]
